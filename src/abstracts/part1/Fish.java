@@ -12,11 +12,11 @@ public class Fish extends Animal
     {
         if (speed.equalsIgnoreCase("slow"))
         {
-            System.out.println(type + " lazily swimming.");
+            System.out.println(getExplicitType() + " lazily swimming.");
         }
         else
         {
-            System.out.println(type + " running.");
+            System.out.println(getExplicitType() + " running.");
         }
     }
 
